@@ -1,0 +1,229 @@
+2026-09-29 17:07:26.020: [INFO] CurrentProfilePath: D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default
+2026-09-29 17:07:26.020: [INFO] Profiles total count: 1
+2026-09-29 17:07:26.020: [INFO] Profile: name=Profile 1 path=D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default lastActive=null
+2026-09-29 17:07:26.020: [INFO] LastUsedProfileDir: D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default
+2026-09-29 17:07:26.020: [INFO] OnDoneLoading sync enabled: 0
+2026-09-29 17:07:26.020: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-29 17:07:26.020: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-29 17:07:26.020: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-29 17:08:32.690: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-29 17:16:12.472: [INFO] CurrentProfilePath: D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default
+2026-09-29 17:16:12.472: [INFO] Profiles total count: 1
+2026-09-29 17:16:12.477: [INFO] Profile: name=Profile 1 path=D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default lastActive=2026-09-29T17:08:06.245Z
+2026-09-29 17:16:12.477: [INFO] LastUsedProfileDir: D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default
+2026-09-29 17:16:12.478: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default lastActive=2026-09-29T17:08:06.245Z
+2026-09-29 17:16:12.478: [INFO] OnDoneLoading sync enabled: 0
+2026-09-29 17:16:12.478: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-29 17:16:12.478: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-29 17:16:12.478: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-29 17:31:53.546: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-29 17:32:22.192: [INFO] CurrentProfilePath: D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default
+2026-09-29 17:32:22.192: [INFO] Profiles total count: 1
+2026-09-29 17:32:22.195: [INFO] Profile: name=Profile 1 path=D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default lastActive=2026-09-29T17:21:45.040Z
+2026-09-29 17:32:22.195: [INFO] LastUsedProfileDir: D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default
+2026-09-29 17:32:22.195: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default lastActive=2026-09-29T17:21:45.040Z
+2026-09-29 17:32:22.195: [INFO] OnDoneLoading sync enabled: 0
+2026-09-29 17:32:22.195: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-29 17:32:22.195: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-29 17:32:22.195: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-29 17:35:55.269: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-29 17:36:10.153: [INFO] CurrentProfilePath: D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default
+2026-09-29 17:36:10.153: [INFO] Profiles total count: 1
+2026-09-29 17:36:10.153: [INFO] Profile: name=Profile 1 path=D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default lastActive=2026-09-29T17:35:03.329Z
+2026-09-29 17:36:10.153: [INFO] LastUsedProfileDir: D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default
+2026-09-29 17:36:10.153: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default lastActive=2026-09-29T17:35:03.329Z
+2026-09-29 17:36:10.153: [INFO] OnDoneLoading sync enabled: 0
+2026-09-29 17:36:10.153: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-29 17:36:10.153: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-29 17:36:10.153: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-29 17:40:44.020: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-29 17:56:34.234: [INFO] CurrentProfilePath: D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default
+2026-09-29 17:56:34.234: [INFO] Profiles total count: 1
+2026-09-29 17:56:34.234: [INFO] Profile: name=Profile 1 path=D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default lastActive=2026-09-29T17:35:03.329Z
+2026-09-29 17:56:34.234: [INFO] LastUsedProfileDir: D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default
+2026-09-29 17:56:34.234: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default lastActive=2026-09-29T17:35:03.329Z
+2026-09-29 17:56:34.234: [INFO] OnDoneLoading sync enabled: 0
+2026-09-29 17:56:34.234: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-29 17:56:34.234: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-29 17:56:34.234: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-29 18:18:52.222: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-29 18:19:21.691: [INFO] CurrentProfilePath: D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default
+2026-09-29 18:19:21.691: [INFO] Profiles total count: 1
+2026-09-29 18:19:21.691: [INFO] Profile: name=Profile 1 path=D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default lastActive=2026-09-29T18:15:39.961Z
+2026-09-29 18:19:21.691: [INFO] LastUsedProfileDir: D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default
+2026-09-29 18:19:21.691: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default lastActive=2026-09-29T18:15:39.961Z
+2026-09-29 18:19:21.691: [INFO] OnDoneLoading sync enabled: 0
+2026-09-29 18:19:21.691: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-29 18:19:21.691: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-29 18:19:21.691: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-29 18:36:44.426: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-29 18:37:24.052: [INFO] CurrentProfilePath: D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default
+2026-09-29 18:37:24.052: [INFO] Profiles total count: 1
+2026-09-29 18:37:24.064: [INFO] Profile: name=Profile 1 path=D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default lastActive=2026-09-29T18:23:21.228Z
+2026-09-29 18:37:24.064: [INFO] LastUsedProfileDir: D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default
+2026-09-29 18:37:24.064: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default lastActive=2026-09-29T18:23:21.228Z
+2026-09-29 18:37:24.064: [INFO] OnDoneLoading sync enabled: 0
+2026-09-29 18:37:24.064: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-29 18:37:24.064: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-29 18:37:24.064: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-29 18:39:24.357: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-29 18:39:41.663: [INFO] CurrentProfilePath: D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default
+2026-09-29 18:39:41.663: [INFO] Profiles total count: 1
+2026-09-29 18:39:41.663: [INFO] Profile: name=Profile 1 path=D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default lastActive=2026-09-29T18:37:35.674Z
+2026-09-29 18:39:41.663: [INFO] LastUsedProfileDir: D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default
+2026-09-29 18:39:41.663: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default lastActive=2026-09-29T18:37:35.674Z
+2026-09-29 18:39:41.663: [INFO] OnDoneLoading sync enabled: 0
+2026-09-29 18:39:41.663: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-29 18:39:41.663: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-29 18:39:41.663: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-29 18:41:06.721: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-29 18:41:16.157: [INFO] CurrentProfilePath: D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default
+2026-09-29 18:41:16.157: [INFO] Profiles total count: 1
+2026-09-29 18:41:16.157: [INFO] Profile: name=Profile 1 path=D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default lastActive=2026-09-29T18:40:52.181Z
+2026-09-29 18:41:16.157: [INFO] LastUsedProfileDir: D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default
+2026-09-29 18:41:16.157: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default lastActive=2026-09-29T18:40:52.181Z
+2026-09-29 18:41:16.157: [INFO] OnDoneLoading sync enabled: 0
+2026-09-29 18:41:16.157: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-29 18:41:16.157: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-29 18:41:16.157: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-29 18:50:57.538: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-29 18:51:23.363: [INFO] CurrentProfilePath: D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default
+2026-09-29 18:51:23.363: [INFO] Profiles total count: 1
+2026-09-29 18:51:23.363: [INFO] Profile: name=Profile 1 path=D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default lastActive=2026-09-29T18:41:28.756Z
+2026-09-29 18:51:23.363: [INFO] LastUsedProfileDir: D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default
+2026-09-29 18:51:23.363: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default lastActive=2026-09-29T18:41:28.756Z
+2026-09-29 18:51:23.363: [INFO] OnDoneLoading sync enabled: 0
+2026-09-29 18:51:23.363: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-29 18:51:23.363: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-29 18:51:23.363: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-29 18:52:54.688: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-29 18:54:40.572: [INFO] CurrentProfilePath: D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default
+2026-09-29 18:54:40.572: [INFO] Profiles total count: 1
+2026-09-29 18:54:40.575: [INFO] Profile: name=Profile 1 path=D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default lastActive=2026-09-29T18:52:54.408Z
+2026-09-29 18:54:40.575: [INFO] LastUsedProfileDir: D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default
+2026-09-29 18:54:40.575: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default lastActive=2026-09-29T18:52:54.408Z
+2026-09-29 18:54:40.575: [INFO] OnDoneLoading sync enabled: 0
+2026-09-29 18:54:40.575: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-29 18:54:40.575: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-29 18:54:40.575: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-29 18:57:41.559: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-29 22:37:26.887: [INFO] CurrentProfilePath: D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default
+2026-09-29 22:37:26.887: [INFO] Profiles total count: 1
+2026-09-29 22:37:26.888: [INFO] Profile: name=Profile 1 path=D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default lastActive=2026-09-29T18:52:54.408Z
+2026-09-29 22:37:26.888: [INFO] LastUsedProfileDir: D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default
+2026-09-29 22:37:26.888: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default lastActive=2026-09-29T18:52:54.408Z
+2026-09-29 22:37:26.888: [INFO] OnDoneLoading sync enabled: 0
+2026-09-29 22:37:26.888: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-29 22:37:26.888: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-29 22:37:26.888: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-29 22:40:25.936: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-29 22:42:51.308: [INFO] CurrentProfilePath: D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default
+2026-09-29 22:42:51.308: [INFO] Profiles total count: 1
+2026-09-29 22:42:51.308: [INFO] Profile: name=Profile 1 path=D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default lastActive=2026-09-29T22:38:06.946Z
+2026-09-29 22:42:51.308: [INFO] LastUsedProfileDir: D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default
+2026-09-29 22:42:51.308: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default lastActive=2026-09-29T22:38:06.946Z
+2026-09-29 22:42:51.308: [INFO] OnDoneLoading sync enabled: 0
+2026-09-29 22:42:51.308: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-29 22:42:51.308: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-29 22:42:51.308: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-29 22:43:30.243: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-29 23:01:47.435: [INFO] CurrentProfilePath: D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default
+2026-09-29 23:01:47.435: [INFO] Profiles total count: 1
+2026-09-29 23:01:47.438: [INFO] Profile: name=Profile 1 path=D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default lastActive=2026-09-29T22:43:30.046Z
+2026-09-29 23:01:47.438: [INFO] LastUsedProfileDir: D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default
+2026-09-29 23:01:47.439: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default lastActive=2026-09-29T22:43:30.046Z
+2026-09-29 23:01:47.439: [INFO] OnDoneLoading sync enabled: 0
+2026-09-29 23:01:47.439: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-29 23:01:47.439: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-29 23:01:47.439: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-29 23:04:36.387: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-29 23:16:33.700: [INFO] CurrentProfilePath: D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default
+2026-09-29 23:16:33.700: [INFO] Profiles total count: 1
+2026-09-29 23:16:33.703: [INFO] Profile: name=Profile 1 path=D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default lastActive=2026-09-29T23:04:36.260Z
+2026-09-29 23:16:33.703: [INFO] LastUsedProfileDir: D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default
+2026-09-29 23:16:33.704: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default lastActive=2026-09-29T23:04:36.260Z
+2026-09-29 23:16:33.704: [INFO] OnDoneLoading sync enabled: 0
+2026-09-29 23:16:33.704: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-29 23:16:33.704: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-29 23:16:33.704: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-29 23:18:33.598: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-30 03:34:44.407: [INFO] CurrentProfilePath: D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default
+2026-09-30 03:34:44.407: [INFO] Profiles total count: 1
+2026-09-30 03:34:44.409: [INFO] Profile: name=Profile 1 path=D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default lastActive=2026-09-29T23:18:33.249Z
+2026-09-30 03:34:44.409: [INFO] LastUsedProfileDir: D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default
+2026-09-30 03:34:44.409: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default lastActive=2026-09-29T23:18:33.249Z
+2026-09-30 03:34:44.409: [INFO] OnDoneLoading sync enabled: 0
+2026-09-30 03:34:44.409: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-30 03:34:44.409: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-30 03:34:44.409: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-30 03:35:21.721: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-30 03:37:13.611: [INFO] CurrentProfilePath: D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default
+2026-09-30 03:37:13.611: [INFO] Profiles total count: 1
+2026-09-30 03:37:13.615: [INFO] Profile: name=Profile 1 path=D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default lastActive=2026-09-30T03:35:21.574Z
+2026-09-30 03:37:13.615: [INFO] LastUsedProfileDir: D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default
+2026-09-30 03:37:13.616: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default lastActive=2026-09-30T03:35:21.574Z
+2026-09-30 03:37:13.616: [INFO] OnDoneLoading sync enabled: 0
+2026-09-30 03:37:13.616: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-30 03:37:13.616: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-30 03:37:13.616: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-30 03:38:36.321: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-30 03:52:13.960: [INFO] CurrentProfilePath: D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default
+2026-09-30 03:52:13.960: [INFO] Profiles total count: 1
+2026-09-30 03:52:13.962: [INFO] Profile: name=Profile 1 path=D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default lastActive=2026-09-30T03:38:36.157Z
+2026-09-30 03:52:13.962: [INFO] LastUsedProfileDir: D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default
+2026-09-30 03:52:13.962: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default lastActive=2026-09-30T03:38:36.157Z
+2026-09-30 03:52:13.962: [INFO] OnDoneLoading sync enabled: 0
+2026-09-30 03:52:13.962: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-30 03:52:13.962: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-30 03:52:13.962: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-30 04:00:41.714: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-30 04:01:06.474: [INFO] CurrentProfilePath: D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default
+2026-09-30 04:01:06.474: [INFO] Profiles total count: 1
+2026-09-30 04:01:06.474: [INFO] Profile: name=Profile 1 path=D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default lastActive=2026-09-30T04:00:12.533Z
+2026-09-30 04:01:06.475: [INFO] LastUsedProfileDir: D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default
+2026-09-30 04:01:06.475: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default lastActive=2026-09-30T04:00:12.533Z
+2026-09-30 04:01:06.475: [INFO] OnDoneLoading sync enabled: 0
+2026-09-30 04:01:06.475: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-30 04:01:06.475: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-30 04:01:06.475: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-30 04:02:25.504: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-30 04:14:28.810: [INFO] CurrentProfilePath: D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default
+2026-09-30 04:14:28.810: [INFO] Profiles total count: 1
+2026-09-30 04:14:28.812: [INFO] Profile: name=Profile 1 path=D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default lastActive=2026-09-30T04:02:25.285Z
+2026-09-30 04:14:28.812: [INFO] LastUsedProfileDir: D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default
+2026-09-30 04:14:28.812: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default lastActive=2026-09-30T04:02:25.285Z
+2026-09-30 04:14:28.812: [INFO] OnDoneLoading sync enabled: 0
+2026-09-30 04:14:28.812: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-30 04:14:28.812: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-30 04:14:28.812: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-30 04:17:14.196: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-30 05:02:46.073: [INFO] CurrentProfilePath: D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default
+2026-09-30 05:02:46.073: [INFO] Profiles total count: 1
+2026-09-30 05:02:46.078: [INFO] Profile: name=Profile 1 path=D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default lastActive=2026-09-30T04:14:44.453Z
+2026-09-30 05:02:46.078: [INFO] LastUsedProfileDir: D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default
+2026-09-30 05:02:46.078: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default lastActive=2026-09-30T04:14:44.453Z
+2026-09-30 05:02:46.078: [INFO] OnDoneLoading sync enabled: 0
+2026-09-30 05:02:46.078: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-30 05:02:46.078: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-30 05:02:46.078: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-30 05:03:22.122: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-30 05:26:00.929: [INFO] CurrentProfilePath: D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default
+2026-09-30 05:26:00.929: [INFO] Profiles total count: 1
+2026-09-30 05:26:01.001: [INFO] Profile: name=Profile 1 path=D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default lastActive=2026-09-30T05:03:21.917Z
+2026-09-30 05:26:01.001: [INFO] LastUsedProfileDir: D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default
+2026-09-30 05:26:01.013: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default lastActive=2026-09-30T05:03:21.917Z
+2026-09-30 05:26:01.013: [INFO] OnDoneLoading sync enabled: 0
+2026-09-30 05:26:01.013: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-30 05:26:01.013: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-30 05:26:01.013: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-30 05:32:44.407: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-30 05:33:02.590: [INFO] CurrentProfilePath: D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default
+2026-09-30 05:33:02.590: [INFO] Profiles total count: 1
+2026-09-30 05:33:02.592: [INFO] Profile: name=Profile 1 path=D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default lastActive=2026-09-30T05:27:17.917Z
+2026-09-30 05:33:02.592: [INFO] LastUsedProfileDir: D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default
+2026-09-30 05:33:02.592: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=D:\Degree\Project\Webreminder\ReminderDesktop\bin\Debug\net11.0-windows\ReminderDesktop.exe.WebView2\EBWebView\Default lastActive=2026-09-30T05:27:17.917Z
+2026-09-30 05:33:02.592: [INFO] OnDoneLoading sync enabled: 0
+2026-09-30 05:33:02.592: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-30 05:33:02.592: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-30 05:33:02.592: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-30 05:40:27.610: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1

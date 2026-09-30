@@ -1,0 +1,259 @@
+@page
+@model ReminderWeb.Pages.IndexModel
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Reminder App</title>
+
+    <link rel="stylesheet" href="~/css/site.css?v=5">
+
+</head>
+
+<body>
+
+    <header class="navbar">
+
+        <div class="logo">
+            REMIND<span>ER</span>
+        </div>
+
+        <nav>
+
+            <a href="#">Home</a>
+
+            <a href="#">Reminders</a>
+
+            <a href="#">Settings</a>
+
+        </nav>
+
+    </header>
+
+
+    <main class="container">
+
+        <section class="hero">
+
+            <div class="hero-text">
+
+                <p class="small-title">
+                    YOUR PERSONAL REMINDER SYSTEM
+                </p>
+
+                <h1>
+                    Never miss
+                    <span>what matters.</span>
+                </h1>
+
+                <p class="description">
+
+                    Create reminders, organize your day
+                    and stay focused on the things that
+                    matter most.
+
+                </p>
+
+                <button onclick="openReminderForm()">
+                    + Create Reminder
+                </button>
+
+            </div>
+
+
+            <div class="reminder-preview">
+
+                <div class="preview-header">
+
+                    <span>
+                        Today's Reminder
+                    </span>
+
+                    <span class="status">
+                        ACTIVE
+                    </span>
+
+                </div>
+
+
+                <div class="preview-card">
+
+                    <div class="time">
+                        09:00
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Complete Project
+                        </h3>
+
+                        <p>
+                            Finish the reminder web application
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="preview-card">
+
+                    <div class="time">
+                        14:30
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Study
+                        </h3>
+
+                        <p>
+                            Continue learning ASP.NET
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="dashboard">
+
+            <div class="section-title">
+
+                <div>
+
+                    <p class="small-title">
+                        OVERVIEW
+                    </p>
+
+                    <h2>
+                        Your Reminders
+                    </h2>
+
+                </div>
+
+                <button
+                    class="small-button"
+                    onclick="openReminderForm()">
+
+                    + Add
+
+                </button>
+
+            </div>
+
+
+            <div id="reminderList"
+                 class="reminder-list">
+
+                <div class="empty-message">
+
+                    No reminders created yet.
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <div id="reminderModal"
+         class="modal">
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+
+                <h2>
+                    Create Reminder
+                </h2>
+
+                <button
+                    class="close-button"
+                    onclick="closeReminderForm()">
+
+                    ×
+
+                </button>
+
+            </div>
+
+
+            <form method="post" onsubmit="createReminder(event)">
+
+    @Html.AntiForgeryToken()
+
+                <label>
+                    Reminder Title
+                </label>
+
+                <input
+                    type="text"
+                    id="reminderTitle"
+                    placeholder="Enter reminder..."
+                    required>
+
+
+                <label>
+                    Date
+                </label>
+
+                <input
+                    type="date"
+                    id="reminderDate"
+                    required>
+
+
+                <label>
+                    Time
+                </label>
+
+                <input
+                    type="time"
+                    id="reminderTime"
+                    required>
+
+
+                <button type="submit">
+                    Create Reminder
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+    <script>
+    const savedReminders =
+        @Html.Raw(System.Text.Json.JsonSerializer.Serialize(
+            Model.Reminders,
+            new System.Text.Json.JsonSerializerOptions
+            {
+                PropertyNamingPolicy = System.Text.Json.JsonNamingPolicy.CamelCase
+            }
+        ));
+</script>
+
+<script src="~/js/site.js?v=5"></script>
+
+</body>
+
+</html>

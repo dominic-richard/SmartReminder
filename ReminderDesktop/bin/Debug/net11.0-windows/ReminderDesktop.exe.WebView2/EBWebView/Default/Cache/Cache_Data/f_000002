@@ -1,0 +1,719 @@
+console.log("SITE.JS IS LOADED");
+let reminders = [];
+let editingReminderId = null;
+
+// Open reminder form
+function openReminderForm() {
+    document.getElementById("reminderModal").style.display = "flex";
+}
+
+// Close reminder form
+function closeReminderForm() {
+    document.getElementById("reminderModal").style.display = "none";
+}
+
+
+// Create reminder
+async function createReminder(event) {
+
+    event.preventDefault();
+
+    const title =
+        document.getElementById("reminderTitle").value.trim();
+
+    const date =
+        document.getElementById("reminderDate").value;
+
+    const time =
+        document.getElementById("reminderTime").value;
+
+    if (!title || !date || !time) {
+        alert("Please fill in all fields.");
+        return;
+    }
+
+    const reminderDateTime =
+        `${date}T${time}`;
+
+    try {
+
+        const form =
+            event.target;
+
+        const formData =
+            new FormData(form);
+
+        formData.append(
+            "title",
+            title
+        );
+
+        formData.append(
+            "reminderDateTime",
+            reminderDateTime
+        );
+
+        // EDIT EXISTING REMINDER
+        if (editingReminderId !== null) {
+
+            const response =
+                await fetch(
+                    `/?handler=EditReminder&id=${editingReminderId}`,
+                    {
+                        method: "POST",
+                        body: formData
+                    }
+                );
+
+            if (!response.ok) {
+                throw new Error(
+                    `Edit failed: ${response.status}`
+                );
+            }
+
+            const result =
+                await response.json();
+
+            if (!result.success) {
+                throw new Error(
+                    "Reminder could not be edited."
+                );
+            }
+
+            // Update JavaScript reminder
+            const reminder =
+                reminders.find(
+                    reminder =>
+                        reminder.id === editingReminderId
+                );
+
+            if (reminder) {
+
+                reminder.title = title;
+
+                reminder.date = date;
+
+                reminder.time = time;
+
+                reminder.dateTime =
+                    new Date(reminderDateTime);
+            }
+
+            // Update card
+            const card =
+                document.querySelector(
+                    `.preview-card[data-id="${editingReminderId}"]`
+                );
+
+            if (card) {
+
+                card.querySelector(
+                    ".time"
+                ).textContent = time;
+
+                card.querySelector(
+                    ".reminder-info h3"
+                ).textContent = title;
+
+                card.querySelector(
+                    ".reminder-info p"
+                ).textContent = date;
+            }
+
+            // Reset edit mode
+            editingReminderId = null;
+
+            document.querySelector(
+                "#reminderModal .modal-header h2"
+            ).textContent = "Create Reminder";
+
+            document.getElementById(
+                "reminderTitle"
+            ).value = "";
+
+            document.getElementById(
+                "reminderDate"
+            ).value = "";
+
+            document.getElementById(
+                "reminderTime"
+            ).value = "";
+
+            closeReminderForm();
+
+            return;
+        }
+
+        // CREATE NEW REMINDER
+        const response =
+            await fetch(
+                "/?handler=CreateReminder",
+                {
+                    method: "POST",
+                    body: formData
+                }
+            );
+
+        if (!response.ok) {
+            throw new Error(
+                `Create failed: ${response.status}`
+            );
+        }
+
+        const result =
+            await response.json();
+
+        if (!result.success) {
+            throw new Error(
+                "Reminder could not be created."
+            );
+        }
+
+        const reminder = {
+
+            id: result.id,
+
+            title: title,
+
+            dateTime:
+                new Date(reminderDateTime),
+
+            date: date,
+
+            time: time,
+
+            triggered: false
+        };
+
+        reminders.push(reminder);
+
+        displayReminder(reminder);
+
+        document.getElementById(
+            "reminderTitle"
+        ).value = "";
+
+        document.getElementById(
+            "reminderDate"
+        ).value = "";
+
+        document.getElementById(
+            "reminderTime"
+        ).value = "";
+
+        closeReminderForm();
+
+    } catch (error) {
+    console.error("Reminder error:", error);
+    alert("Reminder error: " + error.message);
+}
+    }
+
+
+
+// Display reminder
+function displayReminder(reminder) {
+
+    const reminderList = document.getElementById("reminderList");
+
+    const emptyMessage =
+        reminderList.querySelector(".empty-message");
+
+    if (emptyMessage) {
+        emptyMessage.remove();
+    }
+
+    const card = document.createElement("div");
+
+    card.className = "preview-card";
+
+    card.dataset.id = reminder.id;
+
+    card.innerHTML = `
+        <div class="time">
+            ${reminder.time}
+        </div>
+
+        <div class="reminder-info">
+            <h3>${reminder.title}</h3>
+            <p>${reminder.date}</p>
+            <small>Waiting for reminder...</small>
+        </div>
+
+       <div class="reminder-actions">
+
+    <button
+        class="edit-button"
+        onclick="editReminder(${reminder.id})">
+        Edit
+    </button>
+
+    <button
+        class="delete-button"
+        onclick="deleteReminder(${reminder.id})">
+        Delete
+    </button>
+
+</div>
+    `;
+
+    reminderList.appendChild(card);
+}
+function showBrowserNotification(reminder) {
+
+    if (!("Notification" in window)) {
+        console.log("Browser notifications are not supported.");
+        return;
+    }
+
+    if (Notification.permission === "granted") {
+
+        new Notification("Reminder", {
+            body: reminder.title
+        });
+
+    } else if (Notification.permission !== "denied") {
+
+        Notification.requestPermission().then(permission => {
+
+            if (permission === "granted") {
+
+                new Notification("Reminder", {
+                    body: reminder.title
+                });
+
+            }
+        });
+    }
+}
+function showInPageNotification(reminder) {
+
+    const notification = document.createElement("div");
+
+    notification.className = "reminder-notification";
+
+    notification.style.position = "fixed";
+    notification.style.top = "30px";
+    notification.style.right = "30px";
+    notification.style.zIndex = "999999";
+    notification.style.width = "380px";
+    notification.style.padding = "20px";
+    notification.style.background = "#ffffff";
+    notification.style.color = "#111111";
+    notification.style.border = "3px solid #ff9800";
+    notification.style.borderRadius = "15px";
+    notification.style.boxShadow = "0 10px 40px rgba(0,0,0,0.35)";
+
+    notification.innerHTML = `
+        <div style="font-size:28px; margin-bottom:8px;">
+            🔔
+        </div>
+
+        <div style="font-size:20px; font-weight:bold;">
+            Reminder Due
+        </div>
+
+        <p style="font-size:16px; margin:10px 0;">
+            ${reminder.title}
+        </p>
+
+        <div style="
+            display:flex;
+            gap:8px;
+            flex-wrap:wrap;
+            margin-top:15px;
+        ">
+
+            <button
+                onclick="handleReminderAction(${reminder.id}, 'finished', this)"
+                style="
+                    padding:10px;
+                    border:0;
+                    border-radius:8px;
+                    background:#22c55e;
+                    color:white;
+                    cursor:pointer;
+                    font-weight:bold;
+                ">
+                ✅ Finished
+            </button>
+
+            <button
+                onclick="handleReminderAction(${reminder.id}, 'emergency', this)"
+                style="
+                    padding:10px;
+                    border:0;
+                    border-radius:8px;
+                    background:#f59e0b;
+                    color:white;
+                    cursor:pointer;
+                    font-weight:bold;
+                ">
+                🚨 Emergency
+            </button>
+
+            <button
+                onclick="handleReminderAction(${reminder.id}, 'notDone', this)"
+                style="
+                    padding:10px;
+                    border:0;
+                    border-radius:8px;
+                    background:#ef4444;
+                    color:white;
+                    cursor:pointer;
+                    font-weight:bold;
+                ">
+                ❌ Not Done
+            </button>
+
+        </div>
+    `;
+
+    document.body.appendChild(notification);
+}
+function triggerReminder(reminder) {
+
+    const card =
+        document.querySelector(
+            `.preview-card[data-id="${reminder.id}"]`
+        );
+
+    if (card) {
+
+        card.classList.add("reminder-active");
+
+        const status =
+            card.querySelector(".reminder-info small");
+
+        if (status) {
+            status.textContent =
+                "🔔 Reminder is due!";
+        }
+    }
+
+    showBrowserNotification(reminder);
+
+    function showInPageNotification(reminder) {
+
+    const notification = document.createElement("div");
+
+    notification.className = "reminder-notification";
+
+    notification.innerHTML = `
+        <div class="notification-icon">
+            🔔
+        </div>
+
+        <div class="notification-content">
+
+            <strong>Reminder Due</strong>
+
+            <p>${reminder.title}</p>
+
+            <div class="reminder-actions">
+
+                <button
+                    class="finished-btn"
+                    onclick="handleReminderAction(${reminder.id}, 'finished', this)">
+                    ✅ Finished
+                </button>
+
+                <button
+                    class="emergency-btn"
+                    onclick="handleReminderAction(${reminder.id}, 'emergency', this)">
+                    🚨 Emergency
+                </button>
+
+                <button
+                    class="not-done-btn"
+                    onclick="handleReminderAction(${reminder.id}, 'notDone', this)">
+                    ❌ Not Done
+                </button>
+
+            </div>
+
+        </div>
+    `;
+
+    document.body.appendChild(notification);
+}
+function handleReminderAction(reminderId, action, button) {
+
+    if (action === "finished") {
+
+    const notification =
+        button.closest(".reminder-notification");
+
+    notification.innerHTML = `
+        <div class="notification-icon">
+            📸
+        </div>
+
+        <div class="notification-content">
+
+            <strong>Proof Required</strong>
+
+            <p>
+                Show that you completed:
+                <br>
+                <b>${getReminderTitle(reminderId)}</b>
+            </p>
+
+            <input
+                type="text"
+                id="proof-${reminderId}"
+                class="proof-input"
+                placeholder="Enter your proof">
+
+            <button
+                class="submit-proof-btn"
+                onclick="submitFinishedProof(${reminderId}, this)">
+                Submit Proof
+            </button>
+
+        </div>
+    `;
+
+    return;
+}
+function getReminderTitle(reminderId) {
+
+    const reminder = savedReminders.find(
+        r => r.id === reminderId
+    );
+
+    return reminder ? reminder.title : "this task";
+}
+
+
+function submitFinishedProof(reminderId, button) {
+
+    const input =
+        document.getElementById(`proof-${reminderId}`);
+
+    if (!input || input.value.trim() === "") {
+
+        alert("Please enter your proof.");
+
+        return;
+    }
+
+    if (window.chrome && window.chrome.webview) {
+
+        window.chrome.webview.postMessage({
+            type: "reminderCompleted",
+            id: reminderId,
+            action: "finished",
+            proof: input.value.trim()
+        });
+    }
+
+    button.closest(".reminder-notification").remove();
+}
+
+    if (action === "emergency") {
+
+        // Emergency does not require proof.
+        if (window.chrome && window.chrome.webview) {
+
+            window.chrome.webview.postMessage({
+                type: "reminderCompleted",
+                id: reminderId,
+                action: "emergency"
+            });
+        }
+
+        button.closest(".reminder-notification").remove();
+
+        return;
+    }
+
+    if (action === "notDone") {
+
+        alert("Not Done selected.");
+
+        return;
+    }
+}
+    function completeReminder(reminderId, button) {
+
+    // Remove the notification
+    button.parentElement.remove();
+
+    // Tell the Windows desktop app to stop the pixel effect
+    if (window.chrome && window.chrome.webview) {
+        window.chrome.webview.postMessage({
+            type: "reminderCompleted",
+            id: reminderId
+        });
+    }
+}
+
+    // Send reminder event to Windows desktop app
+    if (window.chrome && window.chrome.webview) {
+
+        window.chrome.webview.postMessage({
+            type: "reminderDue",
+            id: reminder.id,
+            title: reminder.title
+        });
+    }
+}
+
+// Check reminders every second
+function checkReminders() {
+
+    const now = new Date();
+
+    reminders.forEach(reminder => {
+
+        if (
+            !reminder.triggered &&
+            now >= reminder.dateTime
+        ) {
+
+            reminder.triggered = true;
+
+            triggerReminder(reminder);
+        }
+
+    });
+}
+
+// Check every second
+setInterval(() => {
+
+    console.log("Reminder timer is running");
+
+    checkReminders();
+
+}, 1000);
+// Load reminders saved in SQLite
+
+if (typeof savedReminders !== "undefined") {
+
+    savedReminders.forEach(savedReminder => {
+
+        const reminder = {
+
+            id: savedReminder.Id,
+
+            title: savedReminder.Title,
+
+            dateTime: new Date(
+                savedReminder.ReminderDateTime
+            ),
+
+            date:
+                savedReminder.ReminderDateTime
+                .split("T")[0],
+
+            time:
+                savedReminder.ReminderDateTime
+                .split("T")[1]
+                .substring(0, 5),
+
+            triggered: false
+        };
+
+        reminders.push(reminder);
+
+        displayReminder(reminder);
+
+    });
+
+}console.log("LOADING SAVED REMINDERS:", savedReminders);
+async function deleteReminder(id) {
+
+    try {
+
+        const token =
+            document.querySelector(
+                'input[name="__RequestVerificationToken"]'
+            ).value;
+
+        const formData = new FormData();
+
+        formData.append(
+            "__RequestVerificationToken",
+            token
+        );
+
+        const response = await fetch(
+            `/?handler=DeleteReminder&id=${id}`,
+            {
+                method: "POST",
+                body: formData
+            }
+        );
+
+        if (!response.ok) {
+            throw new Error(
+                `Delete failed: ${response.status}`
+            );
+        }
+
+        const result = await response.json();
+
+        if (result.success) {
+
+            reminders = reminders.filter(
+                reminder => reminder.id !== id
+            );
+
+            const card =
+                document.querySelector(
+                    `.preview-card[data-id="${id}"]`
+                );
+
+            if (card) {
+                card.remove();
+            }
+
+        } else {
+
+            alert("Reminder could not be deleted.");
+
+        }
+
+    } catch (error) {
+
+        console.error("Delete error:", error);
+
+        alert("Something went wrong while deleting the reminder.");
+
+    }
+}
+function editReminder(id) {
+
+    const reminder = reminders.find(
+        reminder => reminder.id === id
+    );
+
+    if (!reminder) {
+        alert("Reminder not found.");
+        return;
+    }
+
+    // Store the reminder being edited
+    editingReminderId = id;
+
+    // Open the existing modal
+    document.getElementById("reminderModal").style.display = "flex";
+
+    // Fill the form with existing values
+    document.getElementById("reminderTitle").value =
+        reminder.title;
+
+    document.getElementById("reminderDate").value =
+        reminder.date;
+
+    document.getElementById("reminderTime").value =
+        reminder.time;
+
+    // Change modal title
+    document.querySelector(
+        "#reminderModal .modal-header h2"
+    ).textContent = "Edit Reminder";
+}
+
